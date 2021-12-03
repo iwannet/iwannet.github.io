@@ -1,0 +1,9 @@
+{
+	name Appellancy (iOS 11),
+	desc_short Control your phone with your face!,
+	desc_long Appellancy lets you unlock device with face recognition via camera.ppOpen Source Code of Appellancy is on a href='httpsgithub.comefredericksonAppellancy' target='_blank'GitHub efredericksonAppellancya.,
+	compatitle iOS 11 & arm64,
+	changelog strong1.1-20strongbr+ Initial Release.br,
+	screenshot null,
+	open true,
+}
