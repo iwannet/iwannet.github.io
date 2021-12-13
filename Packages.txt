@@ -2,6 +2,7 @@ Package: com.iwannet.ultracam
 Name: Ultracam
 Author: @iwannet <(null)>
 Description: Make the camera an ultra zoom camera
+ screenshots: https://iwannet.jouwweb.be/screenshots-tweaks 
 Depends: mobilesubstrate
 Maintainer: @iwannet.mail@gmail.com <(null)>
 Architecture: iphoneos-arm
