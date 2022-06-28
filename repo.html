@@ -1,84 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-EYLQHVCGR6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-EYLQHVCGR6');
-</script>
-<link rel="shortcut icon" href="favicon.ico">
-	<title>Iwannet's Repo</title>
-	<noscript>
-		<link rel="apple-touch-icon" href="./apple/apple-touch-icon.png">
-		<link rel="stylesheet" href="ios7.min.css?_=ff" type="text/css" />
-	</noscript>
-	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<meta charset="utf-8">
+  <title>Iwannet's repo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="depictions/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
-<script src="description.js?_=ff"></script>
-<body onload="loadPackages();">
-	<main id="content">
-		<h2 role="header">Iwannet's Repo</h2>
-		<h2 role="header"> (Click on the Photo to open the page) </h2>
-		<ul>
-			<li class="has-icon">
-				<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://iwannet.github.io/" role="button">
-					<img style = "border-radius: 20%;" href="cydia7.png" alt="" srcset="cydia7.png 2x, cydia7.png 3x" class="icon"/>
-					<label></label>
-				</a>
-			</li>
-			<li class="has-icon">
-				<a href="installer://add/repo=https://iwannet.github.io" role="button">
-					<img style = "border-radius: 20%;" href="installer.png" alt="" srcset="installer.png 2x, installer.png 3x" class="icon"/>
-					<label></label>
-				</a>
-			</li>
-			<li class="has-icon">
-				<a href="zbra://sources/add/https://iwannet.github.io" role="button">
-					<img style = "border-radius: 20%;" href="zebra.PNG" alt="" srcset="zebra.PNG 2x, zebra.PNG 3x" class="icon"/>
-					<label></label>
-				</a>
-			</li>
-			<li class="has-icon">
-				<a href="sileo://source/https://iwannet.github.io" role="button">
-					<img style = "border-radius: 20%;" href="sileo.png" alt="" srcset="sileo.png 2x, sileo.png 3x" class="icon"/>
-					<label></label>
-				</a>
-			</li>
-		</ul>
-		<p style="text-align: center; font-size: 85%;" role="footer" id="neo">Repo: https://iwannet.github.io/</p>
-		
-		<ul>
-			<li class="has-icon">
-				<a href="https://github.com/iwannet" target="_blank" role="button">
-					<img style = "border-radius: 20%;" href="github.png" alt="" srcset="github.png 2x, github.png 3x" class="icon"/>
-					<label></label>
-				</a>
-			</li>
-			<li class="has-icon">
-				<a href="https://www.reddit.com/user/iwannet" target="_blank" role="button">
-					<img style = "border-radius: 20%;" href="reddit.png" alt="" srcset="reddit.png 2x, reddit.png 3x" class="icon"/>
-					<label></label>
-				</a>
-		
-		</ul>
-		
-		</ul>
-		
-		<h2 role="header">Hope you like my tweaks :p</h2>
-		<ul>
-			<li>
-				<a onclick="toogleTheme();" role="button">
-					<p>Be sure to follow me on github :) </p>
-				</a>
-			</li>
-		</ul>
-	</main>
-	<p style="text-align: center; font-size: 85%; margin-top: 10px;" role="footer" id="neo">Iwannet © 2022</p>
+<body>
+
+<div class="container">
+	<h1><img src="CydiaIcon.png"> Iwannet's Repo</h1>
+</div>
+
+<div class="container">
+	<div class="card">
+		<div class="card-body">
+			<p><span class="text-primary"><b>Iwannet's repo</span></b> is my Cydia repository.</p>
+			<a class="btn btn-sm btn-primary" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://iwannet.github.io/">Add to Cydia</a>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="card">
+		<div class="card-body">
+			<p><span class="text-primary"><b></span></b></p>
+			<a class="btn btn-sm btn-primary" href="installer://add/repo=https://iwannet.github.io">Add to Installer</a>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="card">
+		<div class="card-body">
+			<p><span class="text-primary"><b></span></b></p>
+			<a class="btn btn-sm btn-primary" href="zbra://sources/add/https://iwannet.github.io">Add to Zebra</a>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="card">
+		<div class="card-body">
+			<p><span class="text-primary"><b></span></b></p>
+			<a class="btn btn-sm btn-primary" href="sileo://source/https://iwannet.github.io">Add to Sileo</a>
+		</div>
+	</div>
+</div>
+<p></p>
+
 </body>
 </html>
