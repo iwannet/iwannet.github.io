@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Iwannet&#039;s website</title>
-	<atom:link href="http://192.168.178.105/feed/?simply_static_page=30" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="http://192.168.178.105/feed/?simply_static_page=71" rel="self" type="application/rss+xml" />
+	<link>https://iwannet.github.io/</link>
 	<description></description>
-	<lastBuildDate>Wed, 27 Mar 2024 18:38:33 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 27 Dec 2024 17:36:03 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,9 +21,9 @@
 	
 
 <image>
-	<url>/wp-content/uploads/2024/03/cropped-logo_basic-1-32x32.png</url>
+	<url>https://iwannet.github.io/wp-content/uploads/2024/03/cropped-logo_basic-1-32x32.png</url>
 	<title>Iwannet&#039;s website</title>
-	<link>/</link>
+	<link>https://iwannet.github.io/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 

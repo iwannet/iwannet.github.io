@@ -8,10 +8,10 @@
 <channel>
 	<title>
 	Comments for Iwannet&#039;s website	</title>
-	<atom:link href="http://192.168.178.105/comments/feed/?simply_static_page=31" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="http://192.168.178.105/comments/feed/?simply_static_page=72" rel="self" type="application/rss+xml" />
+	<link>https://iwannet.github.io/</link>
 	<description></description>
-	<lastBuildDate>Wed, 27 Mar 2024 18:38:33 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 27 Dec 2024 17:36:03 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
